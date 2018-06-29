@@ -1,0 +1,3 @@
+jerseyClient:
+    connectionTimeout: 1000s
+    timeout: 1000s

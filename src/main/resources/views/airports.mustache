@@ -1,0 +1,16 @@
+<head>
+</head>
+<body>
+<b>Airports matching your query:</b><br><br>
+{{#airports.airports}}
+	Code: {{code}}<br>
+	Name: {{displayName}}<br>
+	International Airport?: {{internationalAirport}}<br>
+	Regional Airport?: {{regionalAirport}}<br>
+	Location (LAT): {{location.latitude}}<br>
+	Location (LONG): {{location.longitude}}<br>
+	Currency Code: {{currencyCode}}<br>
+	Timezone: {{timeZone}}<br>
+	Country: {{country.displayName}} ({{country.code}})<br><br>
+{{/airports.airports}}
+</body>
